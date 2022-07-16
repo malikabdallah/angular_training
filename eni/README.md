@@ -19,3 +19,20 @@ ng verfier le cli installer
 #creer sa premiere application
 
 ng new firstapp
+
+
+#fondamentaux d angular
+
+un composant est une classe exporant une vue et definisant la maniere d interagir avec elle via un fichier ts qui 
+contient la logique. un composant est decore par @component
+un composant peut etre composant de plusieur composant ,une application est donc l assemblage de ces elements .
+il doit etre independant , reutilisable
+
+le decorateur @component permet de consider une classe comme un composant ,il contient un ensemble de proprite definisant le 
+comportement general d composant
+-selector : la balise css identifiant le composant dans le template , chaque fois qu il sera rencontre angular creera une
+nouvelle insance du composant
+-template | templateUrl : le html decrit comment doit etre rendu le composant
+-styleUrls:le css
+
+#binding 
